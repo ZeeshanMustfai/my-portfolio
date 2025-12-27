@@ -44,20 +44,14 @@ export function About() {
               My Story
             </h3>
             <p className='text-gray-600 dark:text-gray-400 mb-4 leading-relaxed'>
-              As a Senior Software Engineer with over 5 years of experience, I
-              specialize in building scalable web applications and leading
-              engineering teams to deliver exceptional products. My journey in
-              tech has been driven by a passion for solving complex problems and
-              creating elegant solutions.
+              {`Senior Software Engineer with 5+ years of experience and deep expertise
+              in React.js, Next.js, GraphQL, and Node.js. I have strong
+              experience designing high-performance applications, integrating
+              advanced APIs, and optimizing systems for speed and reliability.
+              `}
             </p>
             <p className='text-gray-600 dark:text-gray-400 mb-4 leading-relaxed'>
-              {`I've worked with startups and Fortune 500 companies, architecting systems that serve
-              millions of users. My expertise spans full-stack development, cloud infrastructure,
-              and modern DevOps practices.`}
-            </p>
-            <p className='text-gray-600 dark:text-gray-400 leading-relaxed'>
-              {`When I'm not coding, you'll find me contributing to open-source projects, writing
-                technical articles, or mentoring aspiring developers in the community.`}
+              {`From planning and architecture to development and deployment, I’m comfortable owning the full lifecycle of a product. I’ve also led development teams, ensured smooth releases across platforms, and worked closely with designers and stakeholders to deliver products that are both functional and easy to use.`}
             </p>
           </div>
 

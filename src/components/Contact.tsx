@@ -22,11 +22,12 @@ export function Contact() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
-    setSubmitted(true)
-    setTimeout(() => {
-      setSubmitted(false)
-      setFormData({ name: '', email: '', subject: '', message: '' })
-    }, 3000)
+    console.log('formData', formData)
+    // setSubmitted(true)
+    // setTimeout(() => {
+    //   setSubmitted(false)
+    //   setFormData({ name: '', email: '', subject: '', message: '' })
+    // }, 3000)
   }
 
   const handleChange = (
@@ -216,7 +217,7 @@ export function Contact() {
 
               <button
                 type='submit'
-                className='w-full px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white rounded-lg font-semibold transition-all transform hover:scale-105 shadow-lg flex items-center justify-center gap-2'
+                className='w-full px-8 cursor-pointer py-4 bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white rounded-lg font-semibold transition-all transform hover:scale-105 shadow-lg flex items-center justify-center gap-2'
               >
                 <Send className='w-5 h-5' />
                 {submitted ? 'Message Sent!' : 'Send Message'}

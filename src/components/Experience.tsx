@@ -4,10 +4,10 @@ export function Experience() {
   const experiences = [
     {
       title: 'Senior Software Engineer',
-      company: 'TechCorp Inc.',
-      period: '2022 - Present',
+      company: 'Eye4Tech Inc.',
+      period: '2023 - Present',
       description:
-        'Leading a team of 8 engineers in developing a cloud-native SaaS platform serving 100K+ users.',
+        'Leading a team of 8 engineers in developing a cloud-native SaaS platform serving 50K+ users.',
       achievements: [
         'Architected microservices infrastructure reducing deployment time by 70%',
         'Implemented CI/CD pipelines improving release frequency from monthly to daily',
@@ -16,8 +16,8 @@ export function Experience() {
     },
     {
       title: 'Full Stack Developer',
-      company: 'StartupXYZ',
-      period: '2020 - 2022',
+      company: 'Invozone',
+      period: '2022 - 2023',
       description:
         'Core team member building a fintech application from MVP to Series A funding.',
       achievements: [
@@ -29,7 +29,7 @@ export function Experience() {
     {
       title: 'Software Engineer',
       company: 'Digital Solutions Co.',
-      period: '2019 - 2020',
+      period: '2020 - 2022',
       description:
         'Contributed to enterprise web applications for Fortune 500 clients.',
       achievements: [

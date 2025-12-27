@@ -8,58 +8,130 @@ export function Projects() {
         'Full-stack e-commerce solution with payment integration, inventory management, and analytics dashboard.',
       image:
         'https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=600',
-      tags: ['React', 'Node.js', 'MongoDB', 'Stripe'],
-      liveUrl: 'https://example.com',
-      githubUrl: 'https://github.com',
+      tags: [
+        'React',
+        'Node.js',
+        'MongoDB',
+        'Stripe',
+        'Tailwind CSS',
+        'GraphQL',
+        'Shopify',
+      ],
+      liveUrl: 'https://www.laballey.com/',
+      // githubUrl: 'https://github.com',
     },
     {
-      title: 'Task Management App',
+      title: 'HumanOp AI Coaching Platform',
       description:
-        'Real-time collaborative task management tool with drag-and-drop interface and team workspaces.',
+        'HumanOp helps you see beyond the surface to unlock the potential in yourself and your team using AI',
       image:
         'https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=600',
-      tags: ['Vue.js', 'Firebase', 'Tailwind CSS'],
-      liveUrl: 'https://example.com',
+      tags: [
+        'Next.js',
+        'Laravel',
+        'Tailwind CSS',
+        'OpenAI API',
+        'AWS',
+        'MySQL',
+      ],
+      liveUrl: 'https://app.humanop.com/',
       githubUrl: 'https://github.com',
     },
     {
-      title: 'Analytics Dashboard',
+      title: 'Pabau CRM System',
       description:
-        'Data visualization platform for real-time metrics and insights with customizable widgets.',
+        'Pabau is a comprehensive healthcare management system currently operating in over 65 countries worldwide.',
       image:
         'https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=600',
-      tags: ['React', 'TypeScript', 'D3.js', 'PostgreSQL'],
-      liveUrl: 'https://example.com',
+      tags: [
+        'Next.js',
+        'TypeScript',
+        'GraphQL',
+        'PostgreSQL',
+        'Prisma',
+        'AWS',
+        'Docker',
+        'Jest',
+        'NestJS',
+        'Redis',
+      ],
+      liveUrl: 'https://pabau.com/',
       githubUrl: 'https://github.com',
     },
     {
-      title: 'AI Content Generator',
+      title: 'Games Industry Network',
       description:
-        'Machine learning powered content generation tool with natural language processing capabilities.',
+        'GIN is a network for games industry executives with a heavy focus on and implemented tools for BizDev',
       image:
         'https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=600',
-      tags: ['Python', 'TensorFlow', 'FastAPI', 'Docker'],
-      liveUrl: 'https://example.com',
+      tags: [
+        'Next.js',
+        'Tailwind CSS',
+        'Laravel',
+        'Docker',
+        'MySQL',
+        'AWS',
+        'Vercel',
+        'Pusher',
+      ],
+      liveUrl: 'https://gamesindustry.network/landing',
       githubUrl: 'https://github.com',
     },
     {
-      title: 'Social Media Dashboard',
+      title: 'Gart Gallery Art Marketplace',
       description:
-        'Multi-platform social media management tool with scheduling, analytics, and engagement tracking.',
+        'The Gart Gallery is an online marketplace for buying and selling digital art pieces as NFTs.',
       image:
         'https://images.pexels.com/photos/267350/pexels-photo-267350.jpeg?auto=compress&cs=tinysrgb&w=600',
-      tags: ['Next.js', 'GraphQL', 'Redis', 'AWS'],
-      liveUrl: 'https://example.com',
+      tags: ['Next.js', 'GraphQL', 'Tailwind CSS', 'Vercel', 'Redux Toolkit'],
+      liveUrl: 'https://www.gartgallery.it/',
       githubUrl: 'https://github.com',
     },
     {
-      title: 'Video Streaming Platform',
+      title: 'Rangde Pakistan News Portal',
       description:
-        'Scalable video streaming service with adaptive bitrate streaming and content delivery network.',
+        'Its a complete news portal for Pakistan news with admin panel to manage news articles, categories, and users.',
       image:
         'https://images.pexels.com/photos/1595385/pexels-photo-1595385.jpeg?auto=compress&cs=tinysrgb&w=600',
-      tags: ['React', 'WebRTC', 'Node.js', 'Kubernetes'],
-      liveUrl: 'https://example.com',
+      tags: [
+        'Next js',
+        'Payload cms',
+        'Node.js',
+        'Tailwind CSS',
+        'Vercel',
+        'NeonDB',
+      ],
+      liveUrl: 'https://www.rangdepakistan.com/',
+      githubUrl: 'https://github.com',
+    },
+    {
+      title: 'Royal Canin Pet Care Platform',
+      description:
+        'Since 1968 Royal Canin has worked to make nutrition cats and dogsfirst medicine. It is our way of making a better world for pets.',
+      image:
+        'https://images.pexels.com/photos/1595385/pexels-photo-1595385.jpeg?auto=compress&cs=tinysrgb&w=600',
+      tags: ['React js', 'Custom CMS', 'Material UI', 'AWS', 'Docker'],
+      liveUrl: 'https://www.royalcanin.com/us',
+      githubUrl: 'https://github.com',
+    },
+    {
+      title: 'Stride UP',
+      description:
+        'Finance that feels like home Halal alternative to a mortgage? It’s time to buy your home without compromising your values.',
+      image:
+        'https://images.pexels.com/photos/1595385/pexels-photo-1595385.jpeg?auto=compress&cs=tinysrgb&w=600',
+      tags: ['Next js', 'Chakra UI'],
+      liveUrl: 'https://strideup.co/   ',
+      githubUrl: 'https://github.com',
+    },
+    {
+      title: 'Get My Charter Travel Platform',
+      description:
+        'More than 40,000 private yacht rentals and bareboat charters near me and worldwide for your next boating trip',
+      image:
+        'https://images.pexels.com/photos/1595385/pexels-photo-1595385.jpeg?auto=compress&cs=tinysrgb&w=600',
+      tags: ['Next js', 'Chakra UI', 'Material UI', 'Vercel'],
+      liveUrl: 'https://discover-world-teal.vercel.app/',
       githubUrl: 'https://github.com',
     },
   ]
@@ -119,7 +191,7 @@ export function Projects() {
                     <ExternalLink className='w-4 h-4' />
                     <span className='text-sm font-semibold'>Live Demo</span>
                   </a>
-                  <a
+                  {/* <a
                     href={project.githubUrl}
                     target='_blank'
                     rel='noopener noreferrer'
@@ -127,7 +199,7 @@ export function Projects() {
                   >
                     <Github className='w-4 h-4' />
                     <span className='text-sm font-semibold'>Code</span>
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </div>
