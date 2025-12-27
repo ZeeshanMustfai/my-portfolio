@@ -1,4 +1,5 @@
 import { Github, Linkedin, Mail, ChevronDown } from 'lucide-react'
+import Image from 'next/image'
 
 export function Hero() {
   return (
@@ -8,12 +9,14 @@ export function Hero() {
     >
       <div className='max-w-6xl mx-auto px-6 py-20 text-center'>
         <div className='mb-8 animate-fade-in'>
-          <div className='w-40 h-40 mx-auto mb-6 rounded-full bg-gradient-to-br from-blue-500 to-purple-600 p-1 shadow-xl'>
+          <div className='w-70 h-70 mx-auto mb-6 rounded-full bg-gradient-to-br from-blue-500 to-purple-600 p-1 shadow-xl'>
             <div className='w-full h-full rounded-full bg-slate-200 dark:bg-gray-700 flex items-center justify-center overflow-hidden'>
-              <img
-                src='https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=400'
+              <Image
+                src='/portfolio.png'
                 alt='Professional headshot'
-                className='w-full h-full object-cover'
+                className='w-full object-cover '
+                width={160}
+                height={160}
               />
             </div>
           </div>
